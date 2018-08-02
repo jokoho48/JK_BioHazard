@@ -1,6 +1,6 @@
 #include "macros.hpp"
 /*
-    FK Framework
+    JK Biohazard
 
     Author: joko // Jonas
 
@@ -32,7 +32,7 @@ DFUNC(changeDamage) = {
     [GVAR(namespace), _zone, [parseNumber _damage, _detectable isEqualTo 0], QGVAR(allVariables), true] call CFUNC(setVariable);
     playSound "ClickSoft";
 };
-["FK Bio Hazard", "Change Area Damage", {
+["JK Bio Hazard", "Change Area Damage", {
     call FUNC(changeDamage);
 }] call Ares_fnc_RegisterCustomModule;
 
@@ -53,7 +53,7 @@ DFUNC(deleteArea) = {
     playSound "ClickSoft";
 };
 
-["FK Bio Hazard", "Delete Area", {
+["JK Bio Hazard", "Delete Area", {
     call FUNC(deleteArea);
 }] call Ares_fnc_RegisterCustomModule;
 
@@ -99,7 +99,7 @@ DFUNC(addArea) = {
     playSound "ClickSoft";
 };
 
-["FK Bio Hazard", "Add Area", {
+["JK Bio Hazard", "Add Area", {
     _this call FUNC(addArea);
 }] call Ares_fnc_RegisterCustomModule;
 
@@ -137,6 +137,6 @@ DFUNC(toggleDebug) = {
     playSound "ClickSoft";
 };
 
-["FK Bio Hazard", "Toggle Debug", {
+["JK Bio Hazard", "Toggle Debug", {
     call FUNC(toggleDebug);
 }] call Ares_fnc_RegisterCustomModule;
