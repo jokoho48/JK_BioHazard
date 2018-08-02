@@ -1,6 +1,6 @@
 #include "macros.hpp"
 /*
-    FK Framework
+    JK Biohazard
 
     Author: joko // Jonas
 
@@ -37,7 +37,7 @@ private _stateMachine = call CFUNC(createStatemachine);
         if (GVAR(hasDetection) && _isDetectable) then {
             if !(GVAR(soundIsPlaying)) then {
                 GVAR(soundIsPlaying) = true;
-                playSound "FKF_BioHazard_Sound";
+                playSound "JK_BioHazard_Sound";
                 DUMP("Playing Sound");
                 [{
                     GVAR(soundIsPlaying) = false;

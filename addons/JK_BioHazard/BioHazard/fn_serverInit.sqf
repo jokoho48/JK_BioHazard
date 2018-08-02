@@ -1,6 +1,6 @@
 #include "macros.hpp"
 /*
-    FK Framework
+    JK Biohazard
 
     Author: joko // Jonas
 
